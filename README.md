@@ -4,7 +4,7 @@
 
 > ⚠️ **关于 `data/` 目录中的数据**
 >
-> 本仓库 `data/` 目录下的 **864 个 Markdown 文件**是 **2026 年 3 月 11 日**爬取的快照数据。
+> 本仓库 `data/` 目录下的 **882 个 Markdown 文件**是 **2026 年 3 月 12 日**爬取的快照数据。
 > 扣子官方文档会持续更新，如果你需要获取最新版本的文档内容，请按照下方「快速开始」章节的步骤，自行运行 Python 爬虫程序重新爬取。
 >
 > ```bash
@@ -31,15 +31,15 @@
 │   ├── scraper.py                 #   核心爬虫：Playwright + markdownify
 │   ├── preprocess.js              #   浏览器端 HTML 预处理
 │   └── post_processor.py          #   Markdown 后处理工具
-├── data/                          # 输出：转换后的 Markdown 文档（864 个文件）
+├── data/                          # 输出：转换后的 Markdown 文档（882 个文件）
 │   ├── 01_扣子/                   #   25 个文件
 │   ├── 02_扣子编程/               #   432 个文件
 │   ├── 03_开发指南/               #   32 个文件
-│   ├── 04_API 和 SDK/             #   184 个文件
-│   ├── 05_实践教程/               #   60 个文件
-│   ├── 06_扣子罗盘/               #   73 个文件
+│   ├── 04_API 和 SDK/             #   192 个文件
+│   ├── 05_实践教程/               #   63 个文件
+│   ├── 06_扣子罗盘/               #   79 个文件
 │   ├── 07_客户案例/               #   30 个文件
-│   └── 08_定价与购买/             #   28 个文件
+│   └── 08_定价与购买/             #   29 个文件
 └── .gitignore
 ```
 
@@ -102,7 +102,7 @@ python build_data.py --skip-nav --skip-existing
          │                                 │
          ▼                                 ▼
   导航栏目录.md                        data/*.md
-  （864 个页面条目）                （Markdown 文档）
+  （882 个页面条目）                （Markdown 文档）
 ```
 
 ### 步骤 1：导航栏爬取（nav_scraper）
@@ -189,6 +189,6 @@ python -m playwright install chromium
 ## 注意事项
 
 - 首次运行需要安装 Chromium 浏览器（playwright install chromium）
-- 批量爬取 864 个页面需要较长时间，建议使用 --skip-existing 进行增量更新
+- 批量爬取 882 个页面需要较长时间，建议使用 --skip-existing 进行增量更新
 - 爬取过程中如果某个页面失败，会记录在 build_report.json 中，可以后续单独重试
 - 图片使用原始 URL（CDN 链接），不做本地下载
