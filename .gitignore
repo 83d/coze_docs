@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# 构建日志/临时文件
+build_log.txt
+build_err.txt
+build_report.json
+
+# 历史遗留
+cache/
+scripts/
+
