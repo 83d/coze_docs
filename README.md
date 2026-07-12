@@ -1,3 +1,9 @@
+
+## 项目已归档
+官方已提供 Markdown 格式文件下载。例如，<https://docs.coze.cn/what_is_coze> 的 Markdown 下载是 <https://docs.coze.cn/what_is_coze.md>，无需本项目的复杂处理了。
+
+
+
 # 扣子官方文档 Markdown 转换项目
 
 将 [扣子官方文档](https://docs.coze.cn) 全站内容自动爬取并转换为 Markdown 格式。
